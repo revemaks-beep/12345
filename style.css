@@ -94,7 +94,7 @@ html, body {
 
 /* ════════════════════════════════════════
    О НАС
-════════════════════��═══════════════════ */
+════════════════════════════════════════ */
 .section-about {
   position: relative;
   width: 100%;
@@ -155,9 +155,9 @@ html, body {
 .text-block-we   { font-size: 18px; left: 216px; top: 465px; line-height: 24px; }
 
 /* ════════════════════════════════════════
-   ОБЩИЙ РАЗДЕЛИТЕЛЬ между с��кциями = 90px
+   ОБЩИЙ РАЗДЕЛИТЕЛЬ между секциями = 90px
    (padding-top каждой секции = 90px, padding-bottom = 0)
-════════════════════════════════════════ */
+═══════════════════════��════════════════ */
 .page-section {
   padding: 90px 90px 0;
 }
@@ -421,7 +421,7 @@ html, body {
 .case-card:nth-child(4) { grid-column: 1; grid-row: 2; }
 .case-card:nth-child(5) { grid-column: 2; grid-row: 2; }
 
-/* ════════════════════════════════════════
+/* ═════════════════════════════��══════════
    БЛОГ
 ════════════════════════════════════════ */
 .blog-grid {
@@ -560,7 +560,7 @@ html, body {
     height: auto;
   }
 
-  /* 2. СТЕКЛЯННАЯ ПАНЕЛЬ И ТЕКСТ */
+  /* 2. СТЕКЛЯННАЯ ПАНЕЛЬ И ТЕКСТ - ИСПРАВЛЕНО */
   .section-about {
     padding: 90px 20px;
     margin-top: 0;
@@ -571,45 +571,56 @@ html, body {
     height: auto;
     padding: 30px 20px !important;
     margin-top: 0 !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .glass {
+    position: static !important;
+    overflow: visible !important;
+  }
+
+  .stripe {
+    display: none !important;
   }
 
   .glass-sheen {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background: linear-gradient(170deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.01) 40%, transparent 60%);
-    border-radius: 13px;
+    display: none !important;
   }
 
   .text {
-    position: relative !important;
+    position: static !important;
     left: 0 !important;
     top: 0 !important;
     white-space: normal !important;
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
+    padding: 0 !important;
   }
 
   .text-heading {
-    font-size: 24px;
+    font-size: 24px !important;
     left: 0 !important;
     top: 0 !important;
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
     letter-spacing: 0.1em;
+    position: static !important;
   }
 
   .text-block-team {
-    font-size: 14px;
+    font-size: 14px !important;
     top: 0 !important;
     left: 0 !important;
-    line-height: 1.5;
-    margin-bottom: 12px;
+    line-height: 1.5 !important;
+    margin-bottom: 12px !important;
+    position: static !important;
   }
 
   .text-block-we {
-    font-size: 14px;
+    font-size: 14px !important;
     top: 0 !important;
     left: 0 !important;
-    line-height: 1.5;
+    line-height: 1.5 !important;
+    position: static !important;
   }
 
   /* 3. КЕЙСЫ - ФИКСИРОВАННЫЕ РАЗМЕРЫ */
