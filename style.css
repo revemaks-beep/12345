@@ -56,11 +56,11 @@ html, body {
   width: 1153px;
   height: 1153px;
   z-index: 2;
-  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1ODkxIiBoZWlnaHQ9IjQ1MTQiIHZpZXdCb3g9IjAgMCA1ODkxIDQ1MTQiPjxwYXRoIGZpbGw9IndoaXRlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zNTMyLjY2LDQ0NzQuMDFsLTExOTguMTYtMi4xNEgxMzI0LjI5Yy0xMjIuMTEuNDUtMTExLjY0LS4zNi0xMTMuMTUtMTIyLjY1LDM1LjcxLTIyNy40NSwyMDYuMDYtNjk3LjI4LDEwMDAuOTYtNzU5LjU0LDg5LjMzLTYuMTYsMTIyLjQtMzMuNDcsMTIyLjI5LTEzMi4zNS0wLjMzLTUxNy43NC0uMzctMjA5NC4zMS0wLjM3LTI1MzkuODUyLDAtOTguNjE5LjQ4LTEyNi4xOS0xMjUuMDUtMTEzLjJDMTE2Mi43Niw4ODUuNzY1LDk4OC4wNCwzNzE5LjE4LDk2Mi4xMDksNDM0OC43NmMtNy4zMDksMTIxLjgsMS43NTMsMTIzLjExLTEyNy4xMTIsMTIzLjExLTE3MC40NDksMCw0NzYuNTU5LS4zNC02NDUuMzI2LDAtMTE0LjEuMjMtMTIxLjEzOS00LjIyLTExOS41MTctMTIyLjExQzc5Ljk5MywzNjM1LjUsMjI5Ljc2NCwzMC4xMTIsMjMzNC41LDMwLjExMmMxMDkuMDgsMi42MjQsMjgwMC41Ni42LDM0MTYuNTMsMC4xLDExMC42NS0uMSwxMzYuNjgtMTAuNiwxMDYuMDgsMTIwLjgyMi02Mi4zLDI0Mi43ODItMzMyLjI5LDc2Ni42MzEtMTUwMi4yMiw3NjguMDUxLTYuMzUsMjA1NC4xODMsMCwyNjY2LjQ5MywwLDI2NjYuNDkzQzQzNTQuODksNDQ3My43MSwzNTMyLjY2LDQ0NzQuMDEsMzUzMi42Niw0NDc0LjAxWm0tMjkxLjc0LTM2NjYuNmgyMzAuMjlhNyw3LDAsMCwxLDcsN1YzNTc2LjM3YTcuMDA4LDcuMDA4LDAsMCwxLTcsN0gzMjQwLjkyYTcuMDA4LDcuMDA4LDAsMCwxLTctN1Y4MTQuNDEyQTcsNywwLDAsMSwzMjQwLjkyLDgwNy40MTJaIi8+PC9zdmc+');
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1ODkxIiBoZWlnaHQ9IjQ1MTQiIHZpZXdCb3g9IjAgMCA1ODkxIDQ1MTQiPjxwYXRoIGZpbGw9IndoaXRlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zNTMyLjY2LDQ0NzQuMDFsLTExOTguMTYtMi4xNEgxMzI0LjI5Yy0xMjIuMTEuNDUtMTExLjY0LS4zNi0xMTMuMTUtMTIyLjY1LDM1LjcxLTIyNy40NSwyMDYuMDYtNjk3LjI4LDEwMDAuOTYtNzU5LjU0LDg5LjMzLTYuMTYsMTIyLjQtMzMuNDcsMTIyLjI5LTEzMi4zNS0wLjMzLTUxNy43NC0uMzctMjA5NC4zMS0wLjM3LTI1MzkuODUyLDAtOTguNjE5LjQ4LTEyNi4xOS0xMjUuMDUtMTEzLjJDMTE2Mi43Niw4ODUuNzY1LDk4OC4wNCwzNzE5LjE4LDk2Mi4xMDksNDM0OC43NmMtNy4zMDksMTIxLjgsMS43NTMsMTIzLjExLTEyNy4xMTIsMTIzLjExLTE3MC40NDksMCw0NzYuNTU5LS4zNC02NDUuMzI2LDAtMTE0LjEuMjMtMTIxLjEzOS00LjIyLTExOS41MTctMTIyLjExQzc5Ljk5MywzNjM1LjUsMjI5Ljc2NCwzMC4xMTIsMjMzNC41LDMwLjExMmMxMDkuMDgsMi42MjQsMjgwMC41Ni42LDM0MTYuNTMsMC4xLDExMC42NS0uMSwxMzYuNjgtMTAuNiwxMDYuMDgsMTIwLjgyMi02Mi4zLDI0Mi43ODItMzMyLjI5LDc2Ni42MzEtMTUwMi4yMiw3NjguMDUxLTYuMzUsMjA1NC4xODMsMCwyNjY2LjQ5MywwLDI2NjYuNDkzQzQzNTQuODksNDQ3My43MSwzNTMyLjY2LDQ0NzQuMDEsMzUzMi42Niw0NDc0LjAxWm0tMjkxLjc0LTM2NjYuNmgyMzAuMjlhNyw3LDAsMCwxLDcsN1YzNTc2LjM3YTcuMDA4LDcuMDA4LDAsMCwxLDctN0gzMjQwLjkyYTcuMDA4LDcuMDA4LDAsMCwxLDctN1Y4MTQuNDEyQTcsNywwLDAsMSwzMjQwLjkyLDgwNy40MTJaIi8+PC9zdmc+');
   mask-size: 992px 1304px;
   mask-position: 150px -164px;
   mask-repeat: no-repeat;
-  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1ODkxIiBoZWlnaHQ9IjQ1MTQiIHZpZXdCb3g9IjAgMCA1ODkxIDQ1MTQiPjxwYXRoIGZpbGw9IndoaXRlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zNTMyLjY2LDQ0NzQuMDFsLTExOTguMTYtMi4xNEgxMzI0LjI5Yy0xMjIuMTEuNDUtMTExLjY0LS4zNi0xMTMuMTUtMTIyLjY1LDM1LjcxLTIyNy40NSwyMDYuMDYtNjk3LjI4LDEwMDAuOTYtNzU5LjU0LDg5LjMzLTYuMTYsMTIyLjQtMzMuNDcsMTIyLjI5LTEzMi4zNS0wLjMzLTUxNy43NC0uMzctMjA5NC4zMS0wLjM3LTI1MzkuODUyLDAtOTguNjE5LjQ4LTEyNi4xOS0xMjUuMDUtMTEzLjJDMTE2Mi43Niw4ODUuNzY1LDk4OC4wNCwzNzE5LjE4LDk2Mi4xMDksNDM0OC43NmMtNy4zMDksMTIxLjgsMS43NTMsMTIzLjExLTEyNy4xMTIsMTIzLjExLTE3MC40NDksMCw0NzYuNTU5LS4zNC02NDUuMzI2LDAtMTE0LjEuMjMtMTIxLjEzOS00LjIyLTExOS41MTctMTIyLjExQzc5Ljk5MywzNjM1LjUsMjI5Ljc2NCwzMC4xMTIsMjMzNC41LDMwLjExMmMxMDkuMDgsMi42MjQsMjgwMC41Ni42LDM0MTYuNTMsMC4xLDExMC42NS0uMSwxMzYuNjgtMTAuNiwxMDYuMDgsMTIwLjgyMi02Mi4zLDI0Mi43ODItMzMyLjI5LDc2Ni42MzEtMTUwMi4yMiw3NjguMDUxLTYuMzUsMjA1NC4xODMsMCwyNjY2LjQ5MywwLDI2NjYuNDkzQzQzNTQuODksNDQ3My43MSwzNTMyLjY2LDQ0NzQuMDEsMzUzMi42Niw0NDc0LjAxWm0tMjkxLjc0LTM2NjYuNmgyMzAuMjlhNyw3LDAsMCwxLDcsN1YzNTc2LjM3YTcuMDA4LDcuMDA4LDAsMCwxLTcsN0gzMjQwLjkyYTcuMDA4LDcuMDA4LDAsMCwxLTctN1Y4MTQuNDEyQTcsNywwLDAsMSwzMjQwLjkyLDgwNy40MTJaIi8+PC9zdmc+');
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1ODkxIiBoZWlnaHQ9IjQ1MTQiIHZpZXdCb3g9IjAgMCA1ODkxIDQ1MTQiPjxwYXRoIGZpbGw9IndoaXRlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zNTMyLjY2LDQ0NzQuMDFsLTExOTguMTYtMi4xNEgxMzI0LjI5Yy0xMjIuMTEuNDUtMTExLjY0LS4zNi0xMTMuMTUtMTIyLjY1LDM1LjcxLTIyNy40NSwyMDYuMDYtNjk3LjI4LDEwMDAuOTYtNzU5LjU0LDg5LjMzLTYuMTYsMTIyLjQtMzMuNDcsMTIyLjI5LTEzMi4zNS0wLjMzLTUxNy43NC0uMzctMjA5NC4zMS0wLjM3LTI1MzkuODUyLDAtOTguNjE5LjQ4LTEyNi4xOS0xMjUuMDUtMTEzLjJDMTE2Mi43Niw4ODUuNzY1LDk4OC4wNCwzNzE5LjE4LDk2Mi4xMDksNDM0OC43NmMtNy4zMDksMTIxLjgsMS43NTMsMTIzLjExLTEyNy4xMTIsMTIzLjExLTE3MC40NDksMCw0NzYuNTU5LS4zNC02NDUuMzI2LDAtMTE0LjEuMjMtMTIxLjEzOS00LjIyLTExOS41MTctMTIyLjExQzc5Ljk5MywzNjM1LjUsMjI5Ljc2NCwzMC4xMTIsMjMzNC41LDMwLjExMmMxMDkuMDgsMi42MjQsMjgwMC41Ni42LDM0MTYuNTMsMC4xLDExMC42NS0uMSwxMzYuNjgtMTAuNiwxMDYuMDgsMTIwLjgyMi02Mi4zLDI0Mi43ODItMzMyLjI5LDc2Ni42MzEtMTUwMi4yMiw3NjguMDUxLTYuMzUsMjA1NC4xODMsMCwyNjY2LjQ5MywwLDI2NjYuNDkzQzQzNTQuODksNDQ3My43MSwzNTMyLjY2LDQ0NzQuMDEsMzUzMi42Niw0NDc0LjAxWm0tMjkxLjc0LTM2NjYuNmgyMzAuMjlhNyw3LDAsMCwxLDcsN1YzNTc2LjM3YTcuMDA4LDcuMDA4LDAsMCwxLDctN0gzMjQwLjkyYTcuMDA4LDcuMDA4LDAsMCwxLDctN1Y4MTQuNDEyQTcsNywwLDAsMSwzMjQwLjkyLDgwNy40MTJaIi8+PC9zdmc+');
   -webkit-mask-size: 992px 1304px;
   -webkit-mask-position: 150px -164px;
   -webkit-mask-repeat: no-repeat;
@@ -94,7 +94,7 @@ html, body {
 
 /* ════════════════════════════════════════
    О НАС
-════════════════════════════════════════ */
+════════════════════��═══════════════════ */
 .section-about {
   position: relative;
   width: 100%;
@@ -155,7 +155,7 @@ html, body {
 .text-block-we   { font-size: 18px; left: 216px; top: 465px; line-height: 24px; }
 
 /* ════════════════════════════════════════
-   ОБЩИЙ РАЗДЕЛИТЕЛЬ между секциями = 90px
+   ОБЩИЙ РАЗДЕЛИТЕЛЬ между с��кциями = 90px
    (padding-top каждой секции = 90px, padding-bottom = 0)
 ════════════════════════════════════════ */
 .page-section {
@@ -508,26 +508,20 @@ html, body {
 .sk-line.long  { width: 85%; }
 .sk-line.med   { width: 65%; }
 
-/* ════════════��═══════════════════════════
+/* ════════════════════════════════════════
    МОБИЛЬНАЯ АДАПТАЦИЯ (до 768px)
 ════════════════════════════════════════ */
 @media (max-width: 768px) {
-  /* 1. PARALLAX - СОХРАНЯЕМ РАБОТУ ДЛЯ МОБИЛЬНЫХ */
-  #scroll-container {
-    height: auto;
-    min-height: 100vh;
-  }
-
+  /* 1. УБРАТЬ ЗУМИРОВАНИЕ */
   #scene {
-    position: sticky;
-    top: 0;
     width: 100%;
     height: auto;
     aspect-ratio: 992 / 1304;
-    transform: scale(1);
-    transform-origin: center;
+    transform: none;
+    transform-origin: unset;
+    position: relative;
+    top: auto;
     overflow: visible;
-    z-index: 5;
   }
 
   #layer-group {
@@ -562,7 +556,11 @@ html, body {
     height: 100% !important;
   }
 
-  /* 2. СТЕКЛЯННАЯ ПАНЕЛЬ И ТЕКСТ - С ГРАНИЦАМИ */
+  #scroll-container {
+    height: auto;
+  }
+
+  /* 2. СТЕКЛЯННАЯ ПАНЕЛЬ И ТЕКСТ */
   .section-about {
     padding: 90px 20px;
     margin-top: 0;
@@ -572,8 +570,7 @@ html, body {
     width: 100%;
     height: auto;
     padding: 30px 20px !important;
-    display: flex;
-    flex-direction: column;
+    margin-top: 0 !important;
   }
 
   .glass-sheen {
@@ -589,36 +586,29 @@ html, body {
     left: 0 !important;
     top: 0 !important;
     white-space: normal !important;
-    padding: 15px;
-    border: 1px solid rgba(190, 211, 238, 0.15);
-    border-radius: 8px;
     margin-bottom: 15px;
-    font-size: 14px;
   }
 
   .text-heading {
-    border: 1px solid rgba(190, 211, 238, 0.15);
-    border-radius: 8px;
-    font-size: 20px;
-    padding: 12px 15px;
+    font-size: 24px;
+    left: 0 !important;
+    top: 0 !important;
     margin-bottom: 15px;
     letter-spacing: 0.1em;
   }
 
   .text-block-team {
-    border: 1px solid rgba(190, 211, 238, 0.15);
-    border-radius: 8px;
-    padding: 12px 15px;
-    font-size: 13px;
+    font-size: 14px;
+    top: 0 !important;
+    left: 0 !important;
     line-height: 1.5;
     margin-bottom: 12px;
   }
 
   .text-block-we {
-    border: 1px solid rgba(190, 211, 238, 0.15);
-    border-radius: 8px;
-    padding: 12px 15px;
-    font-size: 13px;
+    font-size: 14px;
+    top: 0 !important;
+    left: 0 !important;
     line-height: 1.5;
   }
 
@@ -701,7 +691,7 @@ html, body {
     margin-bottom: 5px;
   }
 
-  /* УСЛУГИ - КАРТОЧКИ В 4 РАЗА МЕНЬШЕ */
+  /* УСЛУГИ И ДРУГИЕ СЕКЦИИ */
   .services-inner {
     flex-direction: column;
     gap: 30px;
@@ -716,56 +706,8 @@ html, body {
   }
 
   .orbit {
-    height: auto;
-    min-height: 250px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    align-content: start;
-  }
-
-  .s-card {
-    position: relative !important;
-    left: auto !important;
-    top: auto !important;
-    width: 100% !important;
-    height: auto !important;
-    padding: 20px;
-    aspect-ratio: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .s-card.active {
-    background: rgba(99, 31, 50, 0.36);
-    z-index: auto;
-  }
-
-  .s-icon {
-    position: relative !important;
-    left: auto !important;
-    top: auto !important;
-    transform: none !important;
-    width: 40px !important;
-    height: 40px !important;
-    margin-bottom: 10px;
-  }
-
-  .s-label {
-    position: relative !important;
-    bottom: auto !important;
-    font-size: 11px;
-    padding: 0;
-  }
-
-  .s-num {
-    position: absolute !important;
-    top: 8px !important;
-    left: 8px !important;
-    font-size: 9px;
+    height: 50vh;
+    min-height: 300px;
   }
 
   .page-section:last-child {
